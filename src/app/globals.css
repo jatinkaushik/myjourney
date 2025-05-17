@@ -68,5 +68,5 @@ body {
   background: var(--background); /* Or use class="bg-background" in HTML */
   color: var(--foreground); /* Or use class="text-foreground" in HTML */
   font-family: Inter, sans-serif;
-  padding: 10%;
+  padding: 8%;
 }
