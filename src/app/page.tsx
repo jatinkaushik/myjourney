@@ -1,9 +1,9 @@
+import Hero from "@/app/components/design/hero";
+
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-3xl  font-bold">
-        Hello world!
-      </h1>
+    <div className="">
+      <Hero />
     </div>
   );
 }
