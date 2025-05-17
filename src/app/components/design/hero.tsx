@@ -14,14 +14,14 @@ export default function Hero() {
             </div>
         </div>
       </div>
-      <div className="col-span-12 sm:col-span-8 pr-8 font-medium order-2 sm:order-1 text-[1.2rem] lg:text-[2.5rem] 2xl:text-[4.5rem]">
+      <div className="col-span-12 sm:col-span-8 pr-8 font-medium order-2 sm:order-1 text-[1.2rem] lg:text-[2.5rem]">
         <p className="text-[0.8rem] lg:text-[1.8rem]">Hi! 👋</p> 
         <p className="text-muted-foreground">
             <b className="text-primary-foreground">I am Jatin Kaushik, </b>
             a Software Developer with over 5 years of experience.
         </p>
         <br />
-        <div className="col-span-12 font-light order-3 text-muted-foreground text-[0.8rem] lg:text-[1.2rem] 2xl:text-[2rem]">
+        <div className="col-span-12 font-light order-3 text-muted-foreground text-[0.8rem] lg:text-[1.2rem]">
             Currently working for <span className="text-primary-foreground">Citco</span> Company. <br />   
             Invite me for Job interview -{'>'} <span className="text-primary-foreground underline">hi@jatinkaushik.com</span>
         </div>

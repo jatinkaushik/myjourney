@@ -18,6 +18,8 @@
   --input: #e5e7eb;
   --dp-from-background: #232325;
   --dp-to-background: #8D8D8D;
+  --theme-button-background: #231f1f;
+  --theme-button-foreground: #e5a224;
 }
 
 .dark {
@@ -36,6 +38,8 @@
   --card-foreground: #f8fafc;
   --border: #334155;
   --input: #334155;
+  --theme-button-background: #e5a224;
+  --theme-button-foreground: #000000;
 }
 
 @theme inline{
@@ -56,6 +60,8 @@
   --color-input: var(--input);
   --color-dp-from-background: var(--dp-from-background);
   --color-dp-to-background: var(--dp-to-background);
+  --color-theme-button-background: var(--theme-button-background);
+  --color-theme-button-foreground: var(--theme-button-foreground);
 }
 
 * {
@@ -69,4 +75,5 @@ body {
   color: var(--foreground); /* Or use class="text-foreground" in HTML */
   font-family: Inter, sans-serif;
   padding: 8%;
+  max-width: 1440px;
 }
