@@ -1,4 +1,4 @@
-export default [
+const skills_data = [
     {
         name: "Next.js",
         icon: "/assets/icons/nextjs.svg"
@@ -72,3 +72,5 @@ export default [
         icon: "/assets/icons/docker.svg",
     }
 ]
+
+export {skills_data};

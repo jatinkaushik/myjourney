@@ -1,4 +1,4 @@
-import skills_data from "@/app/data/skills";
+import {skills_data} from "@/app/data/skills";
 
 export const SkillItem = ({name, icon}:any) => {
     return (
