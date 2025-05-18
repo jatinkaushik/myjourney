@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="grid grid-cols-12 justify-center">
+    <div className="grid grid-cols-12">
       <div className="col-span-12 sm:col-span-4 pb-8 px-8 order-1 sm:order-2">
         <div className="relative w-full h-full">
             <div className="absolute rounded-4xl w-full h-full -top-3 right-3 bg-gradient-to-t from-dp-from-background to-dp-to-background">
@@ -26,7 +26,6 @@ export default function Hero() {
             Invite me for Job interview -{'>'} <span className="text-primary-foreground underline">hi@jatinkaushik.com</span>
         </div>
       </div>
-      
     </div>
   );
 }
