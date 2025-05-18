@@ -20,7 +20,7 @@ export const SkillItem = ({name, icon}: SkillItemProps) => {
 
 export default function Skills() {
     return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mb-10">
         <div className="text-xl md:text-3xl font-bold text-primary-foreground">
             Skills
         </div>
