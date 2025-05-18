@@ -24,21 +24,22 @@ export default function About() {
       {/* Main Content Container */}
       <div className="flex flex-col md:flex-row">
         {/* Image Container with styled border and shadow */}
-        <div className="w-full md:w-1/3 relative mb-5 mb:mb-0">
+        <div className="w-full md:w-1/3 relative mb-5 md:mb-0">
           <div className="absolute inset-0 bg-gradient-to-tr from-dp-from-background to-dp-to-background rounded-2xl transform rotate-1 scale-[1.02] opacity-70"></div>
-          <div className="relative w-full h-full">
+          <div className="relative w-full h-[300px] md:h-full">
             <Image
               src="/assets/images/CureSeeShrakTank.jpg"
               alt="CureSee on Shark Tank India"
               className="rounded-2xl shadow-xl object-cover relative z-10"
               fill
-              sizes="(max-width: 768px) 100vw, 50vw"
+              sizes="(max-width: 768px) 100vw, 33vw"
+              priority
             />
           </div>
         </div>
         
         {/* Content Container */}
-        <div className="w-full md:w-2/3 pl-10 mb:pl-10 md:flex flex-col mb:justify-start hidden">
+        <div className="w-full md:w-2/3 pl-10 mb:pl-10 md:flex flex-col mb:justify-start">
             <div className="hidden md:block">
                 <SharkTankHeading />
             </div>
