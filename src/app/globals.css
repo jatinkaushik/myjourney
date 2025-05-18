@@ -75,6 +75,7 @@ body {
   color: var(--foreground); /* Or use class="text-foreground" in HTML */
   font-family: Inter, sans-serif;
   padding: 8%;
+  padding-bottom: 20px;
   max-width: 1440px;
   margin: auto;
 }
