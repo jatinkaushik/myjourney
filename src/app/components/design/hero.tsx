@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <div className="grid grid-cols-12">
@@ -5,11 +7,14 @@ export default function Hero() {
         <div className="relative w-full h-full">
             <div className="absolute rounded-4xl w-full h-full -top-3 right-3 bg-gradient-to-t from-dp-from-background to-dp-to-background">
             </div>
-            <div className="relative w-auto h-auto">
-                <img
+            <div className="relative w-auto h-auto aspect-square">
+                <Image
                 src="/assets/images/MyPicFinal.jpg"
                 alt="Hero Image"
-                className="rounded-4xl shadow-lg"
+                className="rounded-4xl shadow-lg object-cover"
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 33vw"
                 />
             </div>
         </div>

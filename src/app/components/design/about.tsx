@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function SharkTankHeading() {
     return (
         <div className="flex flex-col items-center md:items-start mb-10">
@@ -24,11 +26,15 @@ export default function About() {
         {/* Image Container with styled border and shadow */}
         <div className="w-full md:w-1/3 relative mb-5 mb:mb-0">
           <div className="absolute inset-0 bg-gradient-to-tr from-dp-from-background to-dp-to-background rounded-2xl transform rotate-1 scale-[1.02] opacity-70"></div>
-          <img
-            src="/assets/images/CureSeeShrakTank.jpg"
-            alt="CureSee on Shark Tank India"
-            className="rounded-2xl shadow-xl w-full h-auto object-cover relative z-10"
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src="/assets/images/CureSeeShrakTank.jpg"
+              alt="CureSee on Shark Tank India"
+              className="rounded-2xl shadow-xl object-cover relative z-10"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
         </div>
         
         {/* Content Container */}

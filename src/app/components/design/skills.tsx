@@ -1,7 +1,13 @@
 import {skills_data} from "@/app/data/skills";
 import Image from "next/image";
 
-export const SkillItem = ({name, icon}:any) => {
+// Define a proper interface for the props
+interface SkillItemProps {
+    name: string;
+    icon: string;
+}
+
+export const SkillItem = ({name, icon}: SkillItemProps) => {
     return (
         <div className="p-4 m-2">
             <div className="relative w-16 h-16 mb-2">
