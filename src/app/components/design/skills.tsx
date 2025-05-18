@@ -1,9 +1,12 @@
 import {skills_data} from "@/app/data/skills";
+import Image from "next/image";
 
 export const SkillItem = ({name, icon}:any) => {
     return (
         <div className="p-4 m-2">
-            <img src={icon} alt={`${name} icon`} className="w-16 h-16 mb-2" />
+            <div className="relative w-16 h-16 mb-2">
+                <Image src={icon} alt={`${name} icon`} fill className="object-contain" />
+            </div>
             <h3 className="text-sm font-semibold text-primary-foreground">{name}</h3>
         </div>
     );
