@@ -15,7 +15,7 @@ function SharkTankHeading() {
 
 export default function About() {
   return (
-    <div className="my-15">
+    <div className="my-15 rounded-3xl bg-accent p-5 md:p-10">
       {/* Section Heading */}
       <div className="md:hidden">
         <SharkTankHeading />
@@ -39,11 +39,11 @@ export default function About() {
         </div>
         
         {/* Content Container */}
-        <div className="w-full md:w-2/3 pl-10 mb:pl-10 md:flex flex-col mb:justify-start">
+        <div className="w-full md:w-2/3 md:pl-10 md:flex flex-col mb:justify-start">
             <div className="hidden md:block">
                 <SharkTankHeading />
             </div>
-            <ul className="list-disc text-muted-foreground list-outside mb-4">
+            <ul className="md:list-disc text-muted-foreground list-outside mb-4">
                 <li className="mb-4">
                     Led the creation of Vision Therapy Software and EMR from scratch, treated over 9000 patients and enabling billion seconds of therapy.
                 </li>

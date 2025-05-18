@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="p-[3%] pt-[15%] md:p-[8%]">
         <ReduxProvider>
           {children}
           <ThemeButton />

@@ -30,7 +30,7 @@ const ExperienceCard = (exp:ExperienceCardProps) => {
                 </div>
                 <br />
                 <div>
-                    <ul className="list-disc list-outside mb-4 text-sm">
+                    <ul className="md:list-disc list-outside mb-4 text-sm">
                         {
                             exp.description.map((desc, index) => (
                                 <li key={index} className="mb-4">
