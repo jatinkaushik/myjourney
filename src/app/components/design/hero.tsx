@@ -19,7 +19,7 @@ export default function Hero() {
             </div>
         </div>
       </div>
-      <div className="col-span-12 sm:col-span-8 pr-8 font-medium order-2 sm:order-1 text-[1.2rem] lg:text-[2.5rem]">
+      <div className="col-span-12 sm:col-span-8 pl-8 md:pl-0 md:pr-8 font-medium order-2 sm:order-1 text-[1.2rem] lg:text-[2.5rem]">
         <p className="text-[0.8rem] lg:text-[1.8rem]">Hi! 👋</p> 
         <p className="text-muted-foreground">
             <b className="text-primary-foreground">I am Jatin Kaushik, </b>
