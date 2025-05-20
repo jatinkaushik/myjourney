@@ -12,8 +12,8 @@ interface ExperienceCardProps {
 
 const ExperienceCard = (exp:ExperienceCardProps) => {
     return (
-        <div className="flex flex-col md:flex-row w-full shadow-lg rounded-3xl gap-2 items-top bg-background px-5 py-2 md:px-10 md:py-5">
-            <div className="text-xl order-1 md:order-1 font-semibold text-primary-foreground items-start justify-start">
+        <div className="flex flex-col lg:flex-row w-full shadow-lg rounded-3xl gap-2 items-top bg-background px-5 py-2 lg:px-10 lg:py-5">
+            <div className="text-xl order-1 lg:order-1 font-semibold text-primary-foreground items-start justify-start">
                 <div className="flex relative w-32 h-8 mb-2">
                     <Image
                         src={exp.logo}
@@ -24,13 +24,13 @@ const ExperienceCard = (exp:ExperienceCardProps) => {
                     />
                 </div>
             </div>
-            <div className="flex flex-1 flex-col order-3 md:order-2 mb-4 text-sm md:text-lg text-muted-foreground min-h-30 justify-center px-0 md:px-20">
-                <div className="text-sm md:text-lg font-semibold text-primary-foreground">
+            <div className="flex flex-1 flex-col order-3 lg:order-2 mb-4 text-sm lg:text-lg text-muted-foreground min-h-30 justify-center px-0 lg:px-20">
+                <div className="text-sm lg:text-lg font-semibold text-primary-foreground">
                     {exp.position}
                 </div>
                 <br />
                 <div>
-                    <ul className="md:list-disc list-outside mb-4 text-sm">
+                    <ul className="lg:list-disc list-outside mb-4 text-sm">
                         {
                             exp.description.map((desc, index) => (
                                 <li key={index} className="mb-4">
@@ -41,7 +41,7 @@ const ExperienceCard = (exp:ExperienceCardProps) => {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col order-2 md:order-3 item-start md:items-end justify-start text-primary-foreground">
+            <div className="flex flex-col order-2 lg:order-3 item-start lg:items-end justify-start text-primary-foreground">
                 <div>
                     {exp.duration}
                 </div>
@@ -56,13 +56,13 @@ const ExperienceCard = (exp:ExperienceCardProps) => {
 export default function Experience() {
     return (
         <div className="flex flex-col items-center justify-center bg-accent rounded-3xl py-3">
-            <div className="text-xl md:text-3xl font-bold text-primary-foreground">
+            <div className="text-xl lg:text-3xl font-bold text-primary-foreground">
                 Experience
             </div>
-            <div className="flex mb-4 text-sm md:text-lg text-muted-foreground text-center">
+            <div className="flex mb-4 text-sm lg:text-lg text-muted-foreground text-center">
                 Here is a quick summary of my most recent experiences
             </div>
-            <div className="grid grid-cols-1 gap-10 w-full px-2 md:px-10">
+            <div className="grid grid-cols-1 gap-10 w-full px-2 lg:px-10">
                 {
                     experience_data.map((exp) => (
                         <ExperienceCard
