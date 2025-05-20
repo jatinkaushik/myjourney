@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 
 function SharkTankHeading() {
     return (
@@ -61,6 +62,15 @@ export default function About() {
                 </li>
             </ul>
         </div>
+      </div>
+      {/* Social Media Links */}
+      <div className="flex justify-center mt-5">
+        <a href="https://www.linkedin.com/in/kaushikjatin/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground mx-2">
+          <FaLinkedin size={30} />
+        </a>
+        <a href="https://www.youtube.com/watch?v=D2tnI5_t7W4&t=20s" target="_blank" rel="noopener noreferrer" className="text-muted-foreground mx-2">
+          <FaYoutube size={30} />
+        </a>
       </div>
     </div>
   );
