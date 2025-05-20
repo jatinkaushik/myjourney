@@ -44,23 +44,9 @@ export default function About() {
             <div className="hidden md:block">
                 <SharkTankHeading />
             </div>
-            <ul className="md:list-disc text-muted-foreground list-outside mb-4">
-                <li className="mb-4">
-                    Led the creation of Vision Therapy Software and EMR from scratch, treated over 9000 patients and enabling billion seconds of therapy.
-                </li>
-                <li className="mb-4">
-                    Designed and developed full-stack solutions using ReactJS with Redux for frontend, Flask for backend, and MySQL for database management.
-                </li>
-                <li className="mb-4">
-                    Architected scalable infrastructure with Docker, streamlining deployment across multiple environments.
-                </li>
-                <li className="mb-4">
-                    Implemented CI/CD pipelines using Jenkins, automating testing and deployment processes.
-                </li>
-                <li className="mb-4">
-                    Implemented Agentic AI for autonomous decision-making in financial products, improving efficiency by 80% (Agentic AI: autonomous systems for complex workflows).
-                </li>
-            </ul>
+            <q className="text-muted-foreground">
+              I&apos;m passionate about using technology to solve real-world problems. As the technical founder of CureSee, I built a vision therapy solution that has helped over 9,000 patients improve their eyesight. Being featured on Shark Tank India was a key moment in my career, teaching me storytelling, negotiation, and resilience—skills essential for remote work. This experience showed me the power of innovation and collaboration. When I'm not coding, I enjoy exploring tech trends, reading about startups, and savoring a good cup of coffee.
+            </q>
         </div>
       </div>
       {/* Social Media Links */}

@@ -23,7 +23,7 @@ export default function Hero() {
         <p className="text-[0.8rem] lg:text-[1.8rem]">Hi! 👋</p> 
         <p className="text-muted-foreground">
             <b className="text-primary-foreground">I am Jatin Kaushik, </b>
-            a Software Developer with over 5 years of experience.
+            Software Developer & Tech Founder with over 5 years of experience
         </p>
         <br />
         <div className="col-span-12 font-light order-3 text-muted-foreground text-[0.8rem] lg:text-[1.2rem]">

@@ -4,7 +4,7 @@ import ThemeButton from "@/app/components/theme/ThemeButton";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jatin Kaushik | My Journey",
+  title: "Jatin Kaushik | Software Developer & Entrepreneur",
   description: "My Journey",
 };
 

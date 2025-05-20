@@ -10,7 +10,7 @@ const experience_data = [
             "Implemented Agentic AI for autonomous decision-making in financial products, improving efficiency by 80% (Agentic AI: autonomous systems for complex workflows).",
             "Collaborated with clients to define requirements, achieving 100% client satisfaction on delivered projects.",
             "Utilized VS Code, Git, and CI/CD pipelines to reduce deployment time by 30%.",
-            "Delivered custom solutions within timelines and budgets, completing projects 10% under budget.",
+            "Delivered custom solutions within timelines and budgets, completing projects under budget.",
             "Integrated emerging technologies like Langchain Framework, enhancing system performance by 25%."
         ]
     },
@@ -21,12 +21,11 @@ const experience_data = [
         duration: "Sep 2019 - May 2024",
         location: "Gurgaon, India",
         description: [
-            "Led the creation of Vision Therapy Software and EMR from scratch, treating over 9,000 patients and enabling billions of seconds of therapy.",
-            "Designed and developed full-stack solutions using ReactJS with Redux for frontend, Flask for backend, and MySQL for database management.",
+            "Led development of Vision Therapy Software and EMR, treating over 9,000 patients.",
+            "Enabled billions of seconds of therapy through scalable full-stack solutions.",
             "Architected scalable infrastructure with Docker, streamlining deployment across multiple environments.",
             "Implemented CI/CD pipelines using Jenkins, automating testing and deployment processes.",
-            "Optimized UI performance with Redis cache, reducing HTTP request time by 40%.",
-            "Collaborated with healthcare stakeholders to customize EMR Software, enhancing usability for 100+ providers."
+            "Collaborated with healthcare stakeholders to customize EMR Software, enhancing usability for 100+ big hospitals."
         ]
     },
 ];
