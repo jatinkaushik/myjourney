@@ -3,7 +3,7 @@ export default function Footer() {
         <div className="mt-30">
             <div className="flex flex-col items-start justify-center mt-10">   
                 <p className="text-[2rem] md:text-[5rem] font-bold">
-                    Let's Work Together! <br />
+                    Let&apos;s Work Together! <br />
                 </p>
                 <p className="text-[1.5rem] md:text-[2.5rem] underline font-light text-muted-foreground">
                     hi@jatinkaushik.com
