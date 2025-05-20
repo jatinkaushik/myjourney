@@ -27,8 +27,8 @@ export default function Hero() {
         </p>
         <br />
         <div className="col-span-12 font-light order-3 text-muted-foreground text-[0.8rem] lg:text-[1.2rem]">
-            Currently working for <span className="text-primary-foreground">Citco</span> Company. <br />   
-            Invite me for Job interview -{'>'} <span className="text-primary-foreground underline">hi@jatinkaushik.com</span>
+          Currently working for <span className="text-primary-foreground">Citco</span> Company. <br />
+          Open to new opportunities: -{'>'} <span className="text-primary-foreground underline"><a href="mailto:hi@jatinkaushik.com">hi@jatinkaushik.com</a></span>
         </div>
       </div>
     </div>

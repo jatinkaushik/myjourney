@@ -44,9 +44,9 @@ export default function About() {
             <div className="hidden md:block">
                 <SharkTankHeading />
             </div>
-            <q className="text-muted-foreground">
-              I&apos;m passionate about using technology to solve real-world problems. As the technical founder of CureSee, I built a vision therapy solution that has helped over 9,000 patients improve their eyesight. Being featured on Shark Tank India was a key moment in my career, teaching me storytelling, negotiation, and resilience—skills essential for remote work. This experience showed me the power of innovation and collaboration. When I'm not coding, I enjoy exploring tech trends, reading about startups, and savoring a good cup of coffee.
-            </q>
+            <p className="text-muted-foreground">
+              I&apos;m passionate about using technology to solve real-world problems. As the technical founder of CureSee, I built a vision therapy solution that has helped over 9,000 patients improve their eyesight. Being featured on Shark Tank India was a key moment in my career, teaching me storytelling, negotiation, and resilience—skills essential for remote work. This experience showed me the power of innovation and collaboration. When I&apos;m not coding, I enjoy exploring tech trends, reading about startups, and savoring a good cup of coffee.
+            </p>
         </div>
       </div>
       {/* Social Media Links */}

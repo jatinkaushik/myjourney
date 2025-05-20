@@ -3,10 +3,10 @@ export default function Footer() {
         <div className="mt-30">
             <div className="flex flex-col items-center justify-center mt-10">   
                 <p className="text-[1.5rem] text-center md:text-[3rem] font-bold">
-                    Looking for a talented full-stack developer to join your remote team? Let's connect! <br />
+                    Looking for a talented full-stack developer to join your remote team? Let&apos;s connect! <br />
                 </p>
                 <p className="text-[2rem] md:text-[2.5rem] underline font-light text-muted-foreground">
-                    hi@jatinkaushik.com
+                    <a href="mailto:hi@jatinkaushik.com">hi@jatinkaushik.com</a>
                 </p>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center md:justify-between mt-10">
